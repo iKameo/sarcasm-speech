@@ -1,0 +1,27 @@
+{
+  "name": "sarcasm-speech",
+  "version": "1.0.0",
+  "description": "Swithc between upper and lowercase without much hassle (SaRcAsM sPeEcH)",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iKameo/sarcasm-speech.git"
+  },
+  "keywords": [
+    "sarcasm",
+    "util",
+    "spongebob"
+  ],
+  "author": "iKameo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iKameo/sarcasm-speech/issues"
+  },
+  "homepage": "https://github.com/iKameo/sarcasm-speech#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
