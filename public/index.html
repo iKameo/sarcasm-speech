@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>SaRcAsM-sPeEcH</h2>
+
+
+<form action="/" method="post">
+    <label for="lbl_input">Input:</label>
+    <input type="text" placeholder="Enter text here:" id="inputText" name="inputText" size="50"><br><br>
+    <input type="submit" value="Convert">
+  </form> 
+  <p>After you have pressed "Convert" the modified text will be in your clipboard.</p>
+
+
+<input type="text" id="input" />
+<button onclick="displayEnteredText()">Display</button>
+<script>
+  function displayEnteredText() {
+    var inputText = document.getElementById("input"); // get the element with id "input" which is the textField
+    alert(inputText.value); // show the value of the input in alert message
+  }
+</script>
+
+
+
+</body>
+</html>
